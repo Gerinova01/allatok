@@ -1,4 +1,7 @@
 from allat import Allat
+from allat import Madar
+from allat import Keteltu
+from allat import Hullo
 from emlos import Emlos
 from emlos import Macska
 from emlos import Kutya
@@ -22,3 +25,15 @@ macska1.doromboral()
 kutya1 = Kutya("Bongyor", 9, "kert", "szürke")
 print(kutya1)
 kutya1.ugatol()
+
+madar1 = Madar("Csikócsőr")
+print(madar1)
+madar1.csiripel()
+
+keteltu1 = Keteltu("Zsolti")
+print(keteltu1)
+keteltu1.brekeg()
+
+hullo1 = Hullo("Megalonia")
+print(hullo1)
+hullo1.napozik()
