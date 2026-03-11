@@ -28,3 +28,13 @@ with open("adatok/allatok.txt", "r", encoding="utf-8") as forrasfajl:
 
 for allat in allatok:
     print(allat)
+    if isinstance(allat,Kutya):
+        allat.ugatol()
+    elif isinstance(allat,Macska):
+        allat.doromboral()
+    elif isinstance(allat,Madar):
+        allat.csiripel()
+    elif isinstance(allat,Keteltu):
+        allat.brekeg()
+    elif isinstance(allat,Hullo):
+        allat.napozik()
